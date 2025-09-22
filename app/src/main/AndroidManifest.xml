@@ -21,6 +21,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SegundaTela"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.SegundaTela"
+                />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

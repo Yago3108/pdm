@@ -7,25 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvResultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-"
-
-        android:textSize="60sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="Button"
+        android:layout_marginTop="228dp"
+        android:text="GERAR"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edmin" />
 
@@ -33,37 +22,19 @@
         android:id="@+id/edmin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="164dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="168dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintEnd_toStartOf="@+id/edmax"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/edmax"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:ems="10"
-        android:inputType="number"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/edmin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/edmin"
-        app:layout_constraintTop_toTopOf="@+id/edmin" />
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="141dp"
-        android:layout_height="23dp"
-        android:text="Entre com o intervalo"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="112dp" />
+        android:layout_width="114dp"
+        android:layout_height="21dp"
+        android:text="DIgite um número"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="115dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
