@@ -22,9 +22,6 @@ public class MainActivity extends AppCompatActivity {
         edmax=findViewById(R.id.edmax);
         tvResultado=findViewById(R.id.tvResultado);
         Button b=findViewById(R.id.button);
-
-        Log.d("CicloDeVida", "onCreate");
-
         b.setOnClickListener(v -> {
             int min = Integer.parseInt(edmin.getText().toString());
             int max = Integer.parseInt(edmax.getText().toString());
@@ -38,38 +35,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.d("CicloDeVida", "onStart");
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.d("CicloDeVida", "onPause");
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.d("CicloDeVida", "onResume");
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.d("CicloDeVida", "onStop");
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d("CicloDeVida", "onDestroy");
-    }
-
-
-
 
 }
